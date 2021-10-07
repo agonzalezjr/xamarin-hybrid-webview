@@ -10,6 +10,8 @@ namespace HybridWebView {
     public partial class MainPage : ContentPage {
         public MainPage() {
             InitializeComponent();
+
+            hybridWebView.RegisterAction(data => DisplayAlert("Alert", "Hello " + data, "OK"));
         }
     }
 }
