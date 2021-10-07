@@ -5,6 +5,6 @@
              xmlns:local="clr-namespace:HybridWebView"
              >
 
-    <local:HybridWebView x:Name="hybridWebView" Source="https://www.bing.com" />
+    <WebView x:Name="webView" />
 
 </ContentPage>
